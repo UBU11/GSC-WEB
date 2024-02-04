@@ -1,0 +1,162 @@
+*{
+    padding: 0  ;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Permanent Marker', cursive;
+font-family: 'Protest Guerrilla', sans-serif;
+}
+body {
+    color: #000000;
+    background: #fffaec;
+}
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 9%;
+    background: transparent;
+    z-index: 1000;
+    background-color: aliceblue;
+}
+.navbar{
+    display: flex;
+}
+.navbar a{
+    margin: 0 20px;
+    padding: 4px;
+    color: #000000;
+    font-size: 17px;
+    font-family: 500;
+    border-bottom: 2px solid transparent;
+    transition: all .50s ease;
+}
+.navbar a:hover{
+    border-bottom: 2px solid #3f71dc;
+    color: #3f71dc;
+}
+#menu-icon{
+    font-size: 34px;
+    cursor: pointer;
+    z-index: 10001;
+    display: none;
+
+}
+.top-btn{ display: inline;
+    padding: 9px 25px;
+    font-size:  15px;
+    font-weight: 600;
+    color: #fff;
+    background: #3f71dc;
+    border: 2px solid transparent;
+    border-radius: 12px;
+    transition: all .50s ease;
+}
+.top-btn:hover{
+    background: transparent;
+    color: #3f71dc;
+    border: 2px solid #3f71dc;
+    color: aquamarine;
+    border-color: aquamarine;
+}
+
+section{
+    padding: 0 17%;
+}
+.hero{
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    gap: 1.5rem;
+}
+.hero-txt h1{
+    font-size:100px ;
+font-weight: 600;
+color: #1b9cd8;
+margin-bottom:10px ;
+
+}
+.hero-txt h2{
+    font-size: 90px;
+    line-height: 1.1;
+    margin: 0 0 30px;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Protest Guerrilla', sans-serif;
+    font-family: 'Protest Revolution', sans-serif;
+    width: 600px;
+}
+.hero{
+    background: linear-gradient(lightblue,white);
+}
+span{
+    padding-left: 120px ;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Protest Guerrilla', sans-serif;
+    font-family: 'Protest Revolution', sans-serif;
+}
+.hero-imgg{
+    height: 911px;
+}
+img{
+    height: 911px;
+    padding-right: 200px;
+}
+.btn{
+    display:inline-block;
+    padding: 12px 25px;
+    font-size:  15px;
+    font-weight: 600;
+    color: #fff;
+    background: #3f71dc;
+    border: 2px solid transparent;
+    border-radius: 12px;
+    transition: all .50s ease;
+
+
+}
+.btn:hover{
+    background: transparent;
+    color: #3f71dc;
+    border-radius: 2px solid  #fff ;
+    
+}
+.btn2{
+    border: 2px solid transparent;
+    color:#fff;
+    background: rgb(9, 145, 9);
+    margin-left: 40px;
+    transition: all .50S ease;
+}
+.btn2:hover{
+    background: transparent;
+    color: rgb(9, 145, 9);;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+}
